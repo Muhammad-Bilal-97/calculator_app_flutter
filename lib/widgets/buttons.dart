@@ -15,7 +15,7 @@ class CalculatorButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: InkWell(
+      child: GestureDetector(
         onTap: onPress,
         child: Padding(
           padding: const EdgeInsets.all(0.0),
